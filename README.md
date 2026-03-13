@@ -1,75 +1,63 @@
-# ✨ Manual Testing Project - Open Source Code Editor  
+# Vision Script — Automation Test
 
-🔍 **Manual Testing Project** focused on evaluating the usability, functionality, and reliability of an open-source code editor. This project showcases my ability to identify, document, and report issues while ensuring the software meets user requirements.  
-
----
-
-## 🛠️ Tools and Technologies  
-
-![Manual Testing](https://img.shields.io/badge/-Manual%20Testing-5A9?style=flat-square)  
-![Test Case Documentation](https://img.shields.io/badge/-Test%20Cases-007ACC?style=flat-square)  
-![Bug Reporting](https://img.shields.io/badge/-Bug%20Reporting-D32F2F?style=flat-square)  
-![JIRA](https://img.shields.io/badge/-JIRA-0052CC?logo=jira&logoColor=white&style=flat-square)  
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat-square)  
-![Open Source](https://img.shields.io/badge/-Open%20Source-46A2F1?logo=opensourceinitiative&logoColor=white&style=flat-square)  
+> Complete manual testing documentation suite for **Vision Script**, an open-source code editor. Covers the full QA lifecycle from test planning through bug reporting and test closure.
 
 ---
 
-## 🔧 Project Scope  
+## Overview
 
-- 📄 **Test Planning**: Prepared a detailed test plan to outline the objectives, scope, and testing approach.  
-- ✅ **Test Case Creation**: Developed comprehensive test cases to verify core functionality.  
-- 🐞 **Bug Reporting**: Documented bugs with severity, priority, and reproduction steps using tools like JIRA or GitHub Issues.  
-- 📊 **Test Execution**: Conducted functional, usability, and exploratory testing to uncover potential issues.  
-- 📁 **Test Reports**: Delivered detailed test summary reports, including test case execution results and bug status.  
+This repository contains all testing artifacts produced during the quality assurance cycle of the Vision Script open-source code editor. The goal was to evaluate the editor's usability, functionality, and reliability — systematically identifying, documenting, and reporting defects across key feature areas.
 
 ---
 
-## 📜 Features Tested  
+## Repository Contents
 
-### 🎨 **Editor Features**  
-- Syntax highlighting for multiple programming languages.  
-- Auto-completion and IntelliSense functionality.  
-- Code formatting and indentation support.  
-
-### 🔍 **File Management**  
-- Creating, opening, and saving files.  
-- Integration with Git for version control.  
-
-### ⚙️ **Settings and Plugins**  
-- Customization options for themes and font sizes.  
-- Installation and management of plugins/extensions.  
-
----
-
-## 📂 Project Artifacts  
-
-| Document Type       | Description                          | Link                          |  
-|---------------------|--------------------------------------|-------------------------------|  
-| 📝 Test Plan        | Detailed overview of testing scope.  | [Test Plan Document](link-to-document)  |  
-| ✅ Test Cases       | Comprehensive list of test cases.    | [Test Cases Document](link-to-document) |  
-| 🐞 Bug Reports      | Documented bugs and issues.          | [Bug Reports](link-to-issues) |  
-| 📊 Test Summary     | Summary of testing activities.       | [Test Summary Report](link-to-document) |  
+| File | Description |
+|---|---|
+| `Test plan on Vision Script.docx` | Defines scope, objectives, approach, and testing schedule |
+| `Requirement Report On Vision Script.xlsx` | Mapped requirements used as the basis for test coverage |
+| `Test Scenarios on vision script.xlsx` | High-level scenarios derived from requirements |
+| `Test Cases on vision script.xlsx` | Detailed test cases with steps, expected results, and status |
+| `Test Execution Report on visionscript.xlsx` | Pass/fail execution results with notes |
+| `Bug Report on the vision script.xlsx` | Logged bugs with severity, priority, and reproduction steps |
+| `Bug proofs on Vision Script.docx` | Screenshots and evidence supporting reported defects |
+| `Test Summuary on the vision script testing.docx` | Overall summary of testing activities and outcomes |
+| `User Feedback On Vision Script.docx` | Collected usability feedback from end-user perspective |
 
 ---
 
-## 📸 Visuals  
+## Features Tested
 
-| Test Cases in Action         | Bug Reporting Example         |  
-|------------------------------|-------------------------------|  
-| ![Test Case Screenshot](path-to-screenshot1.png) | ![Bug Report Screenshot](path-to-screenshot2.png) |  
+**Editor Core**
+- Syntax highlighting across multiple programming languages
+- Auto-completion and IntelliSense behaviour
+- Code formatting, indentation, and bracket matching
+
+**File Management**
+- Create, open, save, and rename files
+- Multi-tab and multi-window handling
+
+**Settings & Extensions**
+- Theme and font customisation
+- Plugin/extension installation and management
+
+**Stability & Edge Cases**
+- Large file handling
+- Crash recovery and autosave
+- Keyboard shortcut consistency
 
 ---
 
-## 🚀 Outcome  
+## Testing Approach
 
-This project strengthened my expertise in manual testing by identifying critical bugs, improving software quality, and documenting the testing process effectively.  
+- **Test Type:** Manual, Exploratory, Functional, Usability
+- **Methodology:** Requirement-based test design → scenario creation → test case execution → defect logging → closure
+- **Defect Tracking:** Bug severity and priority classification with proof of evidence
+- **Reporting:** Full test summary with metrics on pass/fail rates and open defects
 
 ---
 
-## 🌟 Let's Connect!  
+## Author
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat-square)](https://linkedin.com/in/your-profile)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/your-username)  
-
-⭐️ **Feel free to explore the project and share your feedback!**  
+**Gyana Prakash Khandual** — SDET  
+[GitHub](https://github.com/GyanaprakashKhandual) · [Portfolio](https://gyanprakash.vercel.app)
